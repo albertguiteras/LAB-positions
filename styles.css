@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-image: url("img/espacio.jpg");
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  z-index: 1;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.slogan {
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  color: white;
+  font-size: 60px;
+}
+
+.satelite {
+  position: relative;
+  top: 100px;
+  left: 10%;
+  width: 200px;
+  height: 150px;
+}
+
+.tierra {
+  position: absolute;
+  top: 65%;
+  right: 20%;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+}
+
+.tierra2 {
+  position: absolute;
+  top: 120%;
+  right: 70%;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  z-index: 1;
+}
+
+.contenido {
+  height: 4000px;
+  color: transparent;
+}
