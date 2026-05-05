@@ -52,9 +52,9 @@ body {
   height: 150px;
 
   animation-name: satellite-movement;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: ease-out;
 }
 
 @keyframes satellite-movement {
@@ -63,6 +63,10 @@ body {
     left: 10%;
     transform: scale(1);
   }
+
+  /* posar mes punts  */
+
+  /* animacio gif que giri */
   25% {
     top: 150px;
     left: 30%;
